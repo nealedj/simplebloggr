@@ -1,0 +1,135 @@
+/* layout */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:22px;
+}
+
+a {
+    color: #003600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header, #footer {
+    background-color: #003600;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#003600), to(#FFF));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(left, #003600, #FFF);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(left, #003600, #FFF);
+    /* IE 10 */
+    background: -ms-linear-gradient(left, #003600, #FFF);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(left, #003600, #FFF);
+}
+
+#footer {
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+    border-top: 5px solid #707070;
+    padding: 10px 0 20px 0 !important;
+    height: 20px;
+}
+
+#header {
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 5px solid #707070;
+    padding: 20px 0 10px 0 !important;
+    color: silver;
+}
+
+#header div#inner {
+    margin-left: 25px;
+    margin-right: auto;
+    position: relative;
+}
+
+#header #inner #logo a {
+    color: white;
+}
+
+#header #inner #menu * {
+    position: relative;
+    float: left;
+}
+
+#header #inner div#menu {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    float: left;
+}
+
+#header #inner div#menu ul{
+    list-style: none;
+}
+
+#header #inner div#menu li {
+    margin: 0 10px;
+}
+
+#header #inner div#menu ul a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div#main-outer{
+    border: 1px solid #707070;
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+}
+
+div#main {
+    padding: 20px;
+    margin-right: 160px;
+}
+
+div#right-column{
+    width: 150px;
+    height: 400px;
+    float: right;
+}
+
+div#login{
+    float: left;
+}
+
+div#login a {
+    color: silver;
+}
+
+div.article{
+    border-bottom: 1px solid #707070
+}
+
+.article-meta {
+    font-size: 8px;
+    color: #707070;
+    line-height: 5px;
+}
+
+div#recent_articles h2 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+div#recent_articles span#divider {
+    border-bottom: 1px solid silver;
+    margin-bottom: 5px;
+}
+
+div.recent_article {
+    margin: 5px 10px 0 0;
+    background-color: silver;
+    border-left: 2px solid #707070;
+    font-size: 12px;
+    line-height: 30px;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}

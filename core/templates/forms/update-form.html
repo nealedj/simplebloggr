@@ -1,0 +1,20 @@
+{% extends "forms/base-form.html" %}
+
+{% block baseform %}
+
+<h1>Update article</h1>
+
+{% for field in form %}
+{% if not field.is_hidden %}
+<div class='form-field'>
+    <div class='label'>
+        {{ field.label_tag }}
+    </div>
+    {{ field }}
+</div>
+{% else %}
+    {{ field }}
+{% endif %}
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,14 @@
+<form method="POST">
+    <div class="box">
+        {% block baseform %}{% endblock %}
+        {% csrf_token %}
+
+        <div class="button-container">
+            <input type="submit" class="button" value="Submit Form" />
+            {{ form.errors }}
+            <div style="clear: both;"></div>
+        </div>
+
+
+    </div>
+</form>

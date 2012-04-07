@@ -1,0 +1,9 @@
+{% extends 'master.html' %}
+
+{% block main_body %}
+{% load sb_extras %}
+{% for article in recent_articles %}
+{% render_article article %}
+{% endfor %}
+
+{% endblock %}

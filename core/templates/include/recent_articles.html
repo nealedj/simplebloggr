@@ -1,0 +1,10 @@
+<div id='recent_articles'>
+    <h2>Recent Articles</h2>
+    <span id='divider'></span>
+    {% for article in recent_articles %}
+        <div class="recent_article">
+            <a href="{% url core-view article.key %}">{{ article.title }}</a>
+        </div>
+    {% endfor %}
+</div>
+

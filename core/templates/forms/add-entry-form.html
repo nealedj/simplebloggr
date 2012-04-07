@@ -1,0 +1,17 @@
+{% extends "forms/base-form.html" %}
+
+{% block baseform %}
+
+<h1>Add entry</h1>
+
+{% for field in form %}
+<div class='form-field'>
+    <div class='label'>
+        {{ field.label_tag }}
+    </div>
+    {{ field }}
+</div>
+            {% endfor %}
+
+{% endblock %}
+

@@ -1,0 +1,10 @@
+<div class='article'>
+    <h1><a href="{% url core-view key %}">{{ title }}</a></h1>
+    <div class='article-body'>
+        {{ body }}
+    </div>
+    <div class='article-meta'>
+        <p>Created on {{ created}} by {{ created_by }}</p>
+        <p>Last updated on {{ updated }} by {{ updated_by }}</p>
+    </div>
+</div>

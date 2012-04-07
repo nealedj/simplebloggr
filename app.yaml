@@ -1,0 +1,26 @@
+application: simplebloggr
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries:
+- name: django
+  version: "1.3"
+
+inbound_services:
+- warmup
+
+handlers:
+
+- url: /static
+  static_dir: core/static
+  expiration: '1m'
+
+- url: /(update|add|delete).*
+  script: main.app
+  login: required
+  auth_fail_action: unauthorized
+
+- url: /.*
+  script: main.app

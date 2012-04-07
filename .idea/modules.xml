@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/simplebloggr.iml" filepath="$PROJECT_DIR$/.idea/simplebloggr.iml" />
+      <module fileurl="file://$USER_HOME$/source/python/searchsupport/tula/.idea/tula.iml" filepath="$USER_HOME$/source/python/searchsupport/tula/.idea/tula.iml" />
+    </modules>
+  </component>
+</project>
+
