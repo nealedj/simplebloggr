@@ -104,6 +104,10 @@ div#login a {
     color: silver;
 }
 
+input.input_text{
+    width: 500px;
+}
+
 div.article{
     border-bottom: 1px solid #707070
 }

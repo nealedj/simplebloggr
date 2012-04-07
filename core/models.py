@@ -6,7 +6,7 @@ __author__ = 'davidne'
 
 class ArticleModel(db.Model):
     title = db.StringProperty(required=True)
-    body = db.StringProperty(required=True, multiline=True)
+    body = db.TextProperty(required=True)
     created = db.DateTimeProperty()
     created_by = db.UserProperty()
     updated = db.DateTimeProperty()
