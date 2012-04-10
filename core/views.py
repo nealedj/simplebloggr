@@ -76,7 +76,7 @@ class ArticleView(TemplateView):
         return super(ArticleView, self).get_context_data(**kwargs)
 
 class DeleteArticleView(DeleteView):
-    http_method_names = ['post'] #todo: add delete form for no JS
+    http_method_names = ['post']
     def get_success_url(self):
         return reverse('core-home')
 

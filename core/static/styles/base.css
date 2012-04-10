@@ -81,8 +81,6 @@ a:hover {
 
 div#main-outer{
     border: 1px solid #707070;
-    -moz-border-radius: 0 0 15px 15px;
-    border-radius: 0 0 15px 15px;
 }
 
 div#main {
